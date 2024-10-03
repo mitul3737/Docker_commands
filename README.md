@@ -38,20 +38,20 @@ GO here https://download.docker.com/linux/ubuntu/dists/
 Then check your ubuntu version by running cat /etc/*release . Now check the UBUNTU_CODENAME. For example, it's noble.
 
 SO, now go to noble/
-![Dist image](image.png)
+![Dist image](images/image.png)
 Then pool/
-![pool/](image-1.png)
+![pool/](images/image-1.png)
 Then stable/
 
-![stable/](image-2.png)
+![stable/](images/image-2.png)
 Then depending on  your arhitecture, choose one. I am choosing amd64/
 
-![amd64/](image-3.png)
+![amd64/](images/image-3.png)
 
 Now from there, download the laters debian versions of  containerd.io_<version>_<arch>.deb, docker-ce_<version>_<arch>.deb, docker-ce-cli_<version>_<arch>.deb, docker-buildx-plugin_<version>_<arch>.deb, docker-compose-plugin_<version>_<arch>.deb
-![download](image-4.png)
+![download](imaegs/image-4.png)
 These are  my  dowloaded laters versions
-![downloaded](image-5.png)
+![downloaded](images/image-5.png)
 
 Now modify this command with your downloaded file's name
 
